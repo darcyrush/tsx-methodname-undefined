@@ -1,0 +1,1 @@
+export const bootstrap = async (): Promise<void> => console.log('Test')
