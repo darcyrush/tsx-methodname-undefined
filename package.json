@@ -1,15 +1,12 @@
 {
   "name": "methodName-undefined",
   "scripts": {
-    "build": "tsc --project src/ --outDir dist/",
+    "build": "tsc --outDir dist/",
     "test-tsx": "node --import tsx --test 'test/**/*.test.ts'",
     "test-ts-node": "node --require ts-node/register --test 'test/**/*.test.ts'"
   },
   "engines": {
     "node": ">= 21.0.0"
-  },
-  "dependencies": {
-    "@nestjs/core": "10.2.8"
   },
   "devDependencies": {
     "@types/node": "20.9.0",
