@@ -5,13 +5,14 @@
     "test-tsx": "node --import tsx --test 'test/**/*.test.ts'",
     "test-ts-node": "node --require ts-node/register --test 'test/**/*.test.ts'"
   },
+  "type": "commonjs",
   "engines": {
     "node": ">= 21.0.0"
   },
   "devDependencies": {
-    "@types/node": "20.9.0",
-    "tsx": "4.1.2",
-    "ts-node": "10.9.1",
-    "typescript": "5.2.2"
+    "@types/node": "20.11.30",
+    "tsx": "4.7.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.3"
   }
 }
